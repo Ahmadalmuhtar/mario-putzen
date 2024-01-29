@@ -1,37 +1,43 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
   background-color: #3498db;
   color: #fff;
-  padding: 20px;
-  text-align: center;
 }
 
 .company-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .company-logo {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
 }
 
 .contact-info {
   display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-set {
+  flex: 1;
+  margin: 0 10px;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .contact-icon {
-  margin-right: 5px;
-}
-
-.contact-detail {
-  font-size: 1.2em;
+  margin-right: 10px;
 }
