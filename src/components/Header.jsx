@@ -1,6 +1,7 @@
 // Header.jsx
 import React from "react";
 import "../styles/Header.css";
+import BildImage from "../files/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -13,7 +14,7 @@ const Header = () => {
     <div className="header">
       <div className="company-info">
         <img
-          src="/path-to-your-logo.png"
+          src={BildImage}
           alt="Company Logo"
           className="company-logo"
         />
@@ -32,7 +33,7 @@ const Header = () => {
           <div className="contact-item">
             <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
             <span className="contact-detail">
-              Labharswegstraße, 9. 78462 Konstanz
+              Labharswegstraße 9, 78462 Konstanz
             </span>
           </div>
         </div>
@@ -48,7 +49,7 @@ const Header = () => {
           <div className="contact-item">
             <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
             <span className="contact-detail">
-              Frohnhauserstr, 308. 45144 Essen
+              Frohnhauserstr. 308, 45144 Essen
             </span>
           </div>
         </div>
