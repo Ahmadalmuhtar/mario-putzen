@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/PhotoGallery.css";
-import BildImage from "../files/Bild.png";
-import BildImage2 from "../files/Bild2.png";
+import BildImage from "../files/Bild.jpg";
+import BildImage2 from "../files/Bild2.jpg";
 
 const PhotoGallery = () => {
   const [currentPhoto, setCurrentPhoto] = useState(0);

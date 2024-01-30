@@ -3,15 +3,19 @@ import WelcomeBanner from "./components/WelcomeBanner";
 import Header from "./components/Header";
 import NavigationMenu from "./components/NavigationMenu";
 import PhotoGallery from "./components/PhotoGallery";
+import AboutUs from "./components/AboutUs";
+import FeatureSection from "./components/FeatureSection";
 
 const App = () => {
   return (
-    <div>
+    <>
       <WelcomeBanner />
       <Header />
       <NavigationMenu />
       <PhotoGallery />
-    </div>
+      <AboutUs />
+      <FeatureSection />
+    </>
   );
 };
 
